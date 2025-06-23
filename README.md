@@ -20,6 +20,9 @@ This repository includes the API test collections, environment, and final submis
 3. Run requests individually or execute a full collection run.
 4. Review the test scripts, assertions, and API responses.
 
+## Visual
+![image](https://github.com/user-attachments/assets/3817a9d2-f389-4d6f-bff2-2922bc69b7c5)
+
 ## Tools Used
 
 * Postman
