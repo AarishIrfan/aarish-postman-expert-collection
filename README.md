@@ -13,30 +13,6 @@ This repository includes the API test collections, environment, and final submis
 - Postman API Fundamentals Student Expert Environment.postman_environment.json  
   Includes environment variables used in the test collections. Supports dynamic values where applicable.
 
-## Certification Submission
-
-**Submission Endpoint**  
-POST https://lesson-completion.postmanlabs.com/submit
-
-**Request Body**
-```json
-{
-  "email": "arishirfan98@gmail.com",
-  "postmanCollectionJsonUrl": "{{submission}}",
-  "publishedCourseId": "2q2g1okzsn62y8",
-  "lessonId": "gof6mgkytvk8u"
-}
-````
-
-**Response**
-
-```json
-{
-  "status": "ok",
-  "message": "Congratulations! The lesson 'Submit your Postman collection' is now marked as complete."
-}
-```
-
 ## How to Use
 
 1. Download or clone this repository.
