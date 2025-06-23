@@ -50,9 +50,3 @@ POST https://lesson-completion.postmanlabs.com/submit
 * RESTful APIs
 * GitHub for version control
 * JSON-based payloads and response handling
-- This version fixes the issue of **blue code block** rendering — it was happening because you were pasting into the editor with unintended indentation or formatting.
-- This markdown is **minimal** and **professional**. No emojis. No fluff.
-- GitHub will render this in white font in dark mode automatically.
-
-Let me know if you want this version in **PDF or DOCX** for sharing externally.
-```
