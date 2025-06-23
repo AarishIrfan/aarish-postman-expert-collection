@@ -1,39 +1,24 @@
-Here is your **clean, professional, no-fluff `README.md`** content that you can copy and paste directly into your GitHub repo:
-
----
-
-```markdown
-# Postman Student Expert Certification – Aarish Irfan
-
-This repository contains the API collections, environment, and final submission setup used to complete the Postman Student Expert certification.
+This repository includes the API test collections, environment, and final submission request used to complete the Postman Student Expert certification.
 
 ## Collections
 
-- `Collection Test.postman_collection.json`  
-  Contains intermediate skill checks (Halfway Check, Final Check) and the final `submit` request used for certification.
+- Collection Test.postman_collection.json  
+  Contains Halfway Check, Final Check, and Submit request for certification.
 
-- `Postman Library API v2.postman_collection.json`  
-  Implements CRUD operations for a sample book API using GET, POST, PATCH, and DELETE requests.
+- Postman Library API v2.postman_collection.json  
+  Covers complete CRUD operations for a book API using GET, POST, PATCH, and DELETE methods.
 
 ## Environment
 
-- `Postman API Fundamentals Student Expert Environment.postman_environment.json`  
-  Includes environment variables used during test execution. This file supports the collections above and can be imported into Postman.
+- Postman API Fundamentals Student Expert Environment.postman_environment.json  
+  Includes environment variables used in the test collections. Supports dynamic values where applicable.
 
-## Certification Submission Details
+## Certification Submission
 
-The following POST request was made to complete the certification:
+**Submission Endpoint**  
+POST https://lesson-completion.postmanlabs.com/submit
 
-**Endpoint:**
-
-```
-
-POST [https://lesson-completion.postmanlabs.com/submit](https://lesson-completion.postmanlabs.com/submit)
-
-````
-
-**Request Body:**
-
+**Request Body**
 ```json
 {
   "email": "arishirfan98@gmail.com",
@@ -43,7 +28,7 @@ POST [https://lesson-completion.postmanlabs.com/submit](https://lesson-completio
 }
 ````
 
-**Response:**
+**Response**
 
 ```json
 {
@@ -55,13 +40,19 @@ POST [https://lesson-completion.postmanlabs.com/submit](https://lesson-completio
 ## How to Use
 
 1. Download or clone this repository.
-2. Open Postman and import the collection and environment files.
-3. Run requests individually or as a full collection run.
-4. Review request scripts, responses, and test results.
+2. Open Postman and import the collections and environment files.
+3. Run requests individually or execute a full collection run.
+4. Review the test scripts, assertions, and API responses.
 
 ## Tools Used
 
-* Postman Desktop Application
+* Postman
 * RESTful APIs
 * GitHub for version control
-* JSON for structured API data
+* JSON-based payloads and response handling
+- This version fixes the issue of **blue code block** rendering — it was happening because you were pasting into the editor with unintended indentation or formatting.
+- This markdown is **minimal** and **professional**. No emojis. No fluff.
+- GitHub will render this in white font in dark mode automatically.
+
+Let me know if you want this version in **PDF or DOCX** for sharing externally.
+```
